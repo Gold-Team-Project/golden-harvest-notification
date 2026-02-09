@@ -4,5 +4,5 @@ import com.teamgold.goldenharvest.domain.notification.command.domain.aggregate.N
 import com.teamgold.goldenharvest.domain.notification.command.domain.repository.NotificationRepository;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface JpaNotificationRepository extends NotificationRepository, JpaRepository<NotificationTemplate,Long> {
+public interface JpaNotificationRepository extends NotificationRepository, JpaRepository<NotificationTemplate, String> {
 }
