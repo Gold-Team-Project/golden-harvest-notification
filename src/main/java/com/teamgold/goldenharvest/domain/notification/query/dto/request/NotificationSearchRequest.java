@@ -10,7 +10,9 @@ import lombok.Setter;
 public class NotificationSearchRequest {
 
     // 기본값 지정
+    @Builder.Default
     private Integer page = 1;
+    @Builder.Default
     private Integer size = 10;
     private String userEmail;
 
